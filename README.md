@@ -2,12 +2,7 @@
 
 
 ## Introduction
-This is a code repository for the corresponding video tutorial. 
+This chat application was created using Node.js as it's backend server and React.js as the frontend framework
 
-In this video, we will create a full Realtime Chat Application. We're going to use  React on the front end, with NodeJS + Socket.io web socket library on the back end. 
-
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
-
-
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+To achieve realtime communication between multiple clients socket connection is being established for all clients currently online,
+using the socket.io library for Node.js and socket.io-client library for React.js to connect the multiple clients and the server
